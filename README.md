@@ -205,6 +205,11 @@ segments, _ = model.transcribe(
 
 本项目提供两种实时音频翻译解决方案，满足不同场景的需求：
 
+## Demo
+
+https://github.com/user-attachments/assets/40e1a290-22fe-4f1a-aeda-4ddb6f1d407e
+
+
 ### 方案一：本地转录 + API翻译 (`realtime_asr_trans_gui.py`)
 
 **特点**: 本地Whisper模型进行语音识别 + 有道翻译API进行文本翻译
@@ -250,6 +255,11 @@ python realtime_asr_trans_gui.py \
 - `--accum-sec`: 累积时间阈值(秒)
 
 ### 方案二：纯API语音翻译 (`realtime_translation_demo.py`)
+
+## Demo
+
+https://github.com/user-attachments/assets/e8fef66e-8376-4ca8-a028-801b4b44cf27
+
 
 **特点**: 完全基于有道流式语音翻译API，无需本地模型
 
