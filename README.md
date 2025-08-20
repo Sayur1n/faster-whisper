@@ -8,12 +8,14 @@
 
 ## 其他项目链接
 
-AI导航 @https://github.com/Sayur1n/AI_guide 
-图像分割+翻译替换 @https://github.com/Sayur1n/sam2 
-AI图片鉴别 @https://github.com/Sayur1n/Community-Forensics 
-AI股票分析 @https://github.com/Sayur1n/TradingAgents-CN 
-AI试衣 @https://github.com/Sayur1n/Ai_tryon 
-AI 流式翻译 
+本项目作者的其他AI相关项目：
+
+- **🤖 AI导航** - [AI_guide](https://github.com/Sayur1n/AI_guide) - 全面的AI工具导航指南
+- **🖼️ 图像分割+翻译替换** - [sam2](https://github.com/Sayur1n/sam2) - 基于SAM的图像分割与翻译替换
+- **🔍 AI图片鉴别** - [Community-Forensics](https://github.com/Sayur1n/Community-Forensics) - AI生成图片检测工具
+- **📈 AI股票分析** - [TradingAgents-CN](https://github.com/Sayur1n/TradingAgents-CN) - 智能股票交易代理系统
+- **👗 AI试衣** - [Ai_tryon](https://github.com/Sayur1n/Ai_tryon) - AI虚拟试衣技术
+- **🌐 AI流式翻译** - [faster-whisper](https://github.com/Sayur1n/faster-whisper) - 高性能语音转录与实时翻译系统
 
 ## 项目特色
 
