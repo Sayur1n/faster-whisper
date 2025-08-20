@@ -314,12 +314,18 @@ python realtime_translation_demo.py \
 #### 方案一：本地转录 + API翻译演示
 **特点**: 本地Whisper模型进行语音识别，有道翻译API进行文本翻译
 
-https://github.com/Sayur1n/faster-whisper/assets/demo/demo.mp4
+<video width="100%" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
 
 #### 方案二：纯API语音翻译演示  
 **特点**: 完全基于有道流式语音翻译API，无需本地模型
 
-https://github.com/Sayur1n/faster-whisper/assets/demo/demo2.mp4
+<video width="100%" controls>
+  <source src="demo/demo2.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
 
 > 💡 **视频说明**: 
 > - 第一个视频展示了本地转录+翻译API的实时效果，可以看到高精度的语音识别和流畅的翻译
