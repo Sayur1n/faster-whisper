@@ -1,0 +1,13 @@
+set KMP_DUPLICATE_LIB_OK=TRUE 
+set HF_HOME=D:\hf_cache
+防止报error 15 设置huggingface下载路径
+python test2.py --source system --model large-v3 --device cuda --compute_type float16 --chunk-sec 0.3 --accum-sec 1.5 --vad --lang ja --min-silence-ms 800 --short-pause 0.5 --long-pause 1.2
+
+python test4.py --source system --model large-v3 --device cuda --compute_type float16 --chunk-sec 0.3 --accum-sec 1.5 --overlap-sec 0.5 --stabilize-tail-sec 0.7 --vad --lang ja --beam-size 5 --min-silence-ms 800
+
+python realtime_asr_trans_gui.py --source system --model large-v3 --compute_type float16 --chunk-sec 0.3 --accum-sec 2 --vad --lang ja --min-silence-ms 800 --short-pause 0.5 --long-pause 1.2 --trans-from ja --trans-to zh-CHS  
+test1 已有音频
+test2 流式转录，无上下文
+test3 流式转录 有上下文
+test4 流式转录 有上下文 GUI
+python app_youdao_stream_gui.py --source system --yd-app-key 5a8045edc022aece --yd-app-secret 3KjduBFD5Onzgfmg6ryHZlgE7C05yFky --trans-from ja --trans-to zh-CHS --debug-partial

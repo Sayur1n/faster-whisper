@@ -13,3 +13,18 @@ venv/
 # Ignore IDE, Editor Files
 .idea/
 .vscode/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+youdao_debug.log
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.m4a

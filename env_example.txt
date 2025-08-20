@@ -1,0 +1,9 @@
+# 有道智云API配置
+# 您的应用ID
+APP_KEY=your_app_key_here
+# 您的应用密钥
+APP_SECRET=your_app_secret_here
+
+# 可选配置
+# 音频文件路径 (用于流式语音翻译)
+AUDIO_PATH=path/to/your/audio/file.wav
