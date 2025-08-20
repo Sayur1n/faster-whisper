@@ -309,6 +309,22 @@ python realtime_translation_demo.py \
 | **延迟** | ⭐⭐⭐⭐ (本地ASR) | ⭐⭐⭐⭐⭐ (流式处理) |
 | **离线能力** | ⭐⭐⭐⭐⭐ (可完全离线) | ⭐⭐ (依赖网络) |
 
+### 🎥 演示视频
+
+#### 方案一：本地转录 + API翻译演示
+**特点**: 本地Whisper模型进行语音识别，有道翻译API进行文本翻译
+
+https://github.com/Sayur1n/faster-whisper/assets/demo/demo.mp4
+
+#### 方案二：纯API语音翻译演示  
+**特点**: 完全基于有道流式语音翻译API，无需本地模型
+
+https://github.com/Sayur1n/faster-whisper/assets/demo/demo2.mp4
+
+> 💡 **视频说明**: 
+> - 第一个视频展示了本地转录+翻译API的实时效果，可以看到高精度的语音识别和流畅的翻译
+> - 第二个视频展示了纯API语音翻译的流式处理效果，延迟更低，部署更便捷
+
 ### 配置要求
 
 1. **API 设置**: 在 [有道智云](https://ai.youdao.com/) 注册获取 `APP_KEY` 和 `APP_SECRET`
